@@ -1,10 +1,11 @@
 import './App.css';
-
+import { Fragment } from "react"
+import Header from './cpts/Header';
 function App() {
   return (
-    <div className="App">
-      HomePage
-    </div>
+    <Fragment className="App">
+      <Header />
+    </Fragment>
   );
 }
 
